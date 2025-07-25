@@ -1,7 +1,5 @@
 <p align="center"><img src="assets/images/doom_imp.gif" alt="imp" height="200"/></p>
-
-
-Command-line tool to visualize imputation results from PS4G files
+<p align="center">**Command-line tool to visualize imputation results from PS4G files**</p>
 
 
 ## Prerequisites
