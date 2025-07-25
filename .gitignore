@@ -1,5 +1,44 @@
+# ─ Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ─ Virtual environments and Pixi env dirs
+.env/
+.venv/
+pixi-env/
+pixi_env/
+
 # pixi environments
 .pixi/*
 !.pixi/config.toml
 
+# ─ Test and coverage artifacts
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─ Build outputs
+build/
+dist/
+*.egg-info/
+
+# ─ Jupyter
+.ipynb_checkpoints/
+
+# ─ Data & results (large or generated files)
+data/
 results/
+*.h5
+*.npz
+*.csv
+
+# ─ Logs
+*.log
+
+
+# ─ OS files
+.DS_Store
+Thumbs.db
+
